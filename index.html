@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section id="container">
+      <div id="header">
+        <h1>calc</h1>
+        <div id="themes-toggle">
+          <p>theme</p>
+          <div id="toggles">
+            <div id="toggle-text">
+              <label class="theme-number" for="theme1">1</label>
+              <label class="theme-number" for="theme2">2</label>
+              <label class="theme-number" for="theme3">3</label>
+            </div>
+            <div id="toggle-buttons">
+              <input type="radio" name="theme" id="theme1" checked>
+              <input type="radio" name="theme" id="theme2">
+              <input type="radio" name="theme" id="theme3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="display">
+        <p id="output"></p>
+      </div>
+      <div id="keys">
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="delete">DEL</button>
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="operator">&plus;</button>
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="operator">&minus;</button>
+        <button class="num">.</button>
+        <button class="num">0</button>
+        <button class="operator">/</button>
+        <button class="operator">&times;</button>
+        <button class="last-row" id="reset">RESET</button>
+        <button class="last-row equal" id="equal">=</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
